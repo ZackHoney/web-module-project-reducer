@@ -9,29 +9,29 @@ export const MEMORY_CLEAR = "MEMORY_CLEAR";
 
 
 export const addOne = () => {
-    return({type:ADD_ONE});
+    return ({ type: ADD_ONE });
 }
 
 export const applyNumber = (number) => {
-    return({type:APPLY_NUMBER, payload:number});
+    return ({ type: APPLY_NUMBER, payload: number });
 }
 
 export const changeOperation = (operator) => {
-    return({type:CHANGE_OPERATION, payload:operator});
+    return ({ type: CHANGE_OPERATION, payload: operator });
 }
 
 export const clearDisplay = () => {
-    return({type:CLEAR_DISPLAY});
+    return ({ type: CLEAR_DISPLAY });
 }
 
 export const addMemory = () => {
-    return({type:MEMORY_ADD})
+    return ({ type: MEMORY_ADD })
 }
 
 export const applyMemory = () => {
-    return({type:MEMORY_APPLY});
+    return ({ type: MEMORY_APPLY });
 }
 
 export const clearMemory = () => {
-    return({type:MEMORY_CLEAR});
+    return ({ type: MEMORY_CLEAR });
 }
